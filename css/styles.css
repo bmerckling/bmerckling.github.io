@@ -4170,7 +4170,7 @@ html.no-csstransitions .s-hero__content {
  * ------------------------------------------------------------------- */
 .s-services {
     background-color: var(--color-bg);
-    padding-top: calc(6 * var(--space));
+    padding-top: calc(1 * var(--space));
     padding-bottom: var(--vspace-2);
 }
 
@@ -4743,6 +4743,12 @@ html.no-csstransitions .s-hero__content {
 @media screen and (max-width: 1200px) {
     .s-contact__email {
         font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .s-contact__email {
+        font-size: 5vw;
     }
 }
 
